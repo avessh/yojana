@@ -5,6 +5,17 @@
 
  }
 
-#navbar-section{
-    background-color: none;
+
+
+#navbar-section .navbar-expand-lg .navbar-collapse{
+    background: transparent;
+    float: right;
+}
+
+#navbar-section #navbar-section-logo{
+    width: 5%;
+}
+
+.collapse navbar-collapse{
+    float: right;
 }
