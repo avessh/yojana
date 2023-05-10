@@ -5,6 +5,28 @@
 
  }
 
+#navbar{
+    padding: 0px 16px 0px 16px;
+}
+
 #navbar-section{
-    background-color: none;
+    background-color: #434344;
+}
+
+.navabr{
+    background-color: #434344;
+}
+
+#navbar-section-text{
+    color: #d3d3d3; 
+    padding: 8px 20px 8px 20px;   
+}
+
+#navbarDropdown{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-section-font{
+    font-family: 'Source Sans Pro', sans-serif;
 }
