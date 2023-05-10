@@ -1,0 +1,10 @@
+ /* all the styling property for navigation bar */
+ *{
+    margin: 0;
+    padding: 0;
+
+ }
+
+#navbar-section{
+    background-color: none;
+}
