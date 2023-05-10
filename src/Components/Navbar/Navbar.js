@@ -15,9 +15,9 @@ function Navbar() {
       <section id="navbar-section">
         <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
         
-          <a class="navbar-brand navbar-font"  href="#">
-            Navbar
-          </a>
+          
+            <img id="navbar-section-logo" src={logo}/>
+          
           <button
             class="navbar-toggler"
             type="button"
@@ -41,14 +41,35 @@ function Navbar() {
                   Home <span class="sr-only">(current)</span>
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item dropdown">
                 <a
-                  class="nav-link navbar-section-font"
-                  id="navbar-section-text"
+                  class="nav-link navbar-section-font dropdown-toggle"
                   href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  style={{ color: "#d3d3d3" , "padding": "10"}}
                 >
-                  Link
+                  Services
                 </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">
+                  Web Development  
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">
+                  Data Science & Analytics
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">
+                  Digital Marketing SEO Website Strategy
+                  </a>
+                  
+                  
+                  
+                </div>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -61,20 +82,89 @@ function Navbar() {
                   aria-expanded="false"
                   style={{ color: "#d3d3d3" , "padding": "10"}}
                 >
-                  Dropdown
+                  courses
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">
-                    Action
-                  </a>
-                  <a class="dropdown-item" href="#">
-                    Another action
+                  SQL for Data Analytics
                   </a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="#">
-                    Something else here
+                  Python for Data Analytics
                   </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">
+                  Web Development
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">
+                  Data Science with Machine Learning
+                  </a>
+                 
+                 
                 </div>
+              </li>
+             
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link navbar-section-font dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  style={{ color: "#d3d3d3" , "padding": "10"}}
+                >
+                  Academia
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">
+                  Educational Partnerships
+                  </a>
+                 
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link navbar-section-font dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  style={{ color: "#d3d3d3" , "padding": "10"}}
+                >
+                  Blogs
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">
+                  Blog Grid
+                  </a>
+                  <a class="dropdown-item" href="#">
+                  Blog Details
+                  </a>
+                 
+                </div>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link navbar-section-font"
+                  id="navbar-section-text"
+                  href="#"
+                >
+                 About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link navbar-section-font"
+                  id="navbar-section-text"
+                  href="#"
+                >
+                 Contact Now
+                </a>
               </li>
             </ul>
           </div>

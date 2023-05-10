@@ -10,7 +10,14 @@
 }
 
 #navbar-section{
-    background-color: #434344;
+    background-color: rgba(67,67,67, 0.6);
+ /* background-color: rgba(67, 67, 68, .15);    */
+    backdrop-filter: blur(10px);
+    
+}
+
+#navbar-section-logo{
+    width: 6%;
 }
 
 .navabr{
@@ -30,3 +37,4 @@
 .navbar-section-font{
     font-family: 'Source Sans Pro', sans-serif;
 }
+
